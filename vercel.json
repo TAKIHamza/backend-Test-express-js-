@@ -9,15 +9,15 @@
     "routes": [
         {
           "src": "/auth/(.*)",
-          "dest": "/auth/$1"
+          "dest": "/auth/"
         },
         {
           "src": "/product/(.*)",
-          "dest": "/product/$1"
+          "dest": "/product/"
         },
         {
           "src": "/command/(.*)",
-          "dest": "/command/$1"
+          "dest": "/command/"
         },
         {
           "src": "/(.*)",
