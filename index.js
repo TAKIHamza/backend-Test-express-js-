@@ -8,7 +8,7 @@ const { router, authMiddleware, blacklistedTokens } = require('./routes/authenti
 const cors = require('cors');
 const bcrypt = require('bcrypt');
 const jwt = require('jsonwebtoken');
-const User = require('../models/user');
+const User = require('./models/user');
 
 
 require('dotenv').config();
