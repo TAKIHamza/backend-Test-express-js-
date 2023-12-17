@@ -7,22 +7,10 @@
       }
     ],
     "routes": [
-        {
-          "src": "/auth/(.*)",
-          "dest": "/auth/"
-        },
-        {
-          "src": "/product/(.*)",
-          "dest": "/product/"
-        },
-        {
-          "src": "/command/(.*)",
-          "dest": "/command/"
-        },
-        {
-          "src": "/(.*)",
-          "dest": "/$1"
-        }
-      ]
+      {
+        "src": "/(.*)",
+        "dest": "/"
+      }
+    ]
   }
   
